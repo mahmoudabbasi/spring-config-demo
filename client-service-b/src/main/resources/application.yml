@@ -1,6 +1,6 @@
 spring:
   application:
-    name: client-service-a   # یا service-b
+    name: client-service-b   # یا service-b
   config:
     import: "configserver:http://localhost:8888"
   kafka:
@@ -11,4 +11,3 @@ management:
     web:
       exposure:
         include: "bus-refresh,refresh,health,info"
-

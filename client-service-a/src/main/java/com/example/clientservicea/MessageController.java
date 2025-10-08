@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MessageController {
-
-    @Value("${service.message}")
+    @Value("${custom.message:Default Message}")
     private String message;
 
     @GetMapping("/message")

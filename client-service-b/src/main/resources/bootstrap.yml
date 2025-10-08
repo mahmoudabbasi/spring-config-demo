@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: client-service-b   # یا service-b
-  config:
-    import: "configserver:http://localhost:8888"
