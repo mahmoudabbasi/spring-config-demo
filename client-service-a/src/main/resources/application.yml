@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: service-a   # یا service-b
+  config:
+    import: "configserver:http://localhost:8888"
