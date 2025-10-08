@@ -1,4 +1,4 @@
 custom:
-  message: "Hello from Client Service 2 test changes via Config Server!"
+  message: "Hello from Client Service 2 via Config Server!"
 server:
   port: 8082
